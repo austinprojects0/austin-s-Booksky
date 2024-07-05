@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Booksky</h1>
+    </div>
+
+    <div class="container" id="container">
+    <div class="container-input">
+        <h1>Harry Potter</h1>
+        <h5>J.K Rowling</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos consequuntur id quos eius quasi, molestias recusandae repellat, enim eligendi sint tempore. Soluta, suscipit incidunt. Amet totam dolorum aspernatur omnis atque nihil debitis sed, rem, est perspiciatis obcaecati modi. Quam neque accusamus ipsam repellat quidem consequuntur minus temporibus nulla vero?</p>
+        <button id="Delete-btn" onclick="deletediv(event)">Delete</button>
+    </div>  
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    
+    <div class="overlay-input" id="overlay-input">
+        <h2>ADD TITTLE</h2>
+        <Form>
+            <input type="text" id="book-name" placeholder="Book tittle">
+            <input type="text" id="book-author" placeholder="Author Name">
+            <textarea id="description" placeholder="Description"></textarea>
+        </Form>
+        <button id="add-btn">Add</button>
+        <button id="close-btn">Close</button>
+    </div>
+
+    <button class="overlay-btn" id="overlay-btn">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
